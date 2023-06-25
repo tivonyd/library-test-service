@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: local-test-db
+
+server:
+  port: 7070
+
+property:
+  value-annotated-map: "{key1:'value1',key2:'value2'}"
